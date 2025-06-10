@@ -84,26 +84,20 @@ Set up a **CI/CD pipeline** to automate:
 Using **GitHub Actions**, **Jenkins**, or **GitLab CI**.
 
 ---
+🧩 Technologies Used
+- Python
 
-## 🚧 Project Structure
-```bash
-Machine-learning/
-├── data/
-├── notebooks/
-├── src/
-├── app/
-└── README.md
+- Scikit-learn
 
-🧩 Tech Stack
-- Python, Pandas, NumPy, Scikit-learn
+- Pandas
 
-- Matplotlib, Seaborn
+- Matplotlib/Seaborn
 
 - Flask/Streamlit
 
-- Docker, CI/CD tools
+- Docker
 
-- MLOps with MLflow
+- GitHub Actions (CI/CD)
 
 🤝 Contributions Welcome!
 - Feel free to fork the repo, open issues, or submit PRs to enhance this learning journey.
