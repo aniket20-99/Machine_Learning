@@ -29,12 +29,12 @@ comparison = pd.DataFrame({'Actual': y_test,'Predicted':y_pred})
 print(comparison)
 
 # Visualizing the results
-plt.scatter(x_test,y_test,color = 'red')
-plt.plot(x_train,regressor.predict(x_train),color = 'blue')
-plt.title('Salary vs Experience')
-plt.xlabel('Year of Experiences')
-plt.ylabel('"Salary')
-plt.show()
+#plt.scatter(x_test,y_test,color = 'red')
+#plt.plot(x_train,regressor.predict(x_train),color = 'blue')
+#plt.title('Salary vs Experience')
+#plt.xlabel('Year of Experiences')
+#plt.ylabel('"Salary')
+#plt.show() """
 
 # Finding slope and intercept
 
