@@ -68,7 +68,7 @@ lin_model_pred
 
 from sklearn.svm import SVR
 
-svr_model = SVR(kernel="poly",degree = 5, gamma = 'scale',C = 10.0) # kernel = linear', 'poly', 'rbf', 'sigmoid', 'precomputed'
+svr_model = SVR(kernel="poly",degree = 3, gamma = 'auto',C = 1) # kernel = linear', 'poly', 'rbf', 'sigmoid', 'precomputed'
 svr_model.fit(X,y)
 
 svr_model_pred = svr_model.predict([[6.5]])
